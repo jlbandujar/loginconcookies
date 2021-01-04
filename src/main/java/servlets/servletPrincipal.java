@@ -54,7 +54,8 @@ public class servletPrincipal extends HttpServlet {
             out.println("<title>Servlet servletPrincipal</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>" + mensaje + "</h1>");
+            out.println("<h1> Bienvenido </h1>");
+            out.println("<h2> " + mensaje + " </h2>");
             out.println("</body>");
             out.println("</html>");
         } finally {
